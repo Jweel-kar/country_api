@@ -9,8 +9,11 @@
 - #### Set the project's interpreter.
 - #### Run your project.
 - #### Terminal command: python manage.py runserver
-### To Read all item:
+### To Read all item and Create an item:
 - url = localhost:8000/country/
+### To Read, Update and Delete specific item:
+- url = localhost:8000/country-detail/id
+- Example = localhost:8000/country-detail/2/
 
 ## With terminal
 ### Change directory into your newly created project.
@@ -21,5 +24,8 @@
 - source venv/bin/activate
 ### Run your project.
 - Terminal command: python manage.py runserver
-### To Read all item:
+### To Read all item and Create an item:
 - url = localhost:8000/country/
+### To Read, Update and Delete specific item:
+- url = localhost:8000/country-detail/id
+- Example = localhost:8000/country-detail/2/
